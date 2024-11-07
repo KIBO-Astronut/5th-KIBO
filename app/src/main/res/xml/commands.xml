@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<apkInfo>
+    <shortName>thailand</shortName> <!-- Optional -->
+    <primary>true</primary> <!-- Required -->
+    <commands>
+        <command
+            name="Run Plan1"
+            syntax="{&quot;name&quot;: &quot;runPlan1&quot;}" />
+        <command
+            name="Run Plan2"
+            syntax="{&quot;name&quot;: &quot;runPlan2&quot;}" />
+        <command
+            name="Run Plan3"
+            syntax="{&quot;name&quot;: &quot;runPlan3&quot;}" />
+    </commands>
+</apkInfo>

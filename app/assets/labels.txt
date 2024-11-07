@@ -1,0 +1,10 @@
+beaker
+goggle
+hammer
+kapton_tape
+pipette
+screwdriver
+thermometer
+top
+watch
+wrench
