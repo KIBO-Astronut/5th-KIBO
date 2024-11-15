@@ -13,4 +13,4 @@ List of classes <br />
 -[Quaternion](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/Quaternion.java) <br />
 -[QuaternionUtils](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/QuaternionUtils.java) 
 
-## For Archived Machine Learning Model please go to [Model folder](Tensorflow Lite model/.) 
+## For Archived Machine Learning Model please go to [Model folder](https://github.com/KIBO-Astronut/5th-KIBO/tree/main/Tensorflow%20Lite%20model) 
