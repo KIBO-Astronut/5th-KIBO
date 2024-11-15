@@ -34,7 +34,7 @@ List of classes <br />
 
 <img src="Readme Images/ImageFromISS/after_iou_3.png">
 
-### After non-maximum suppression it gone
+### After filter the result it gone
 
 # Target 2
 
