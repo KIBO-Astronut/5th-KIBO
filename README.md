@@ -23,7 +23,7 @@ List of classes <br />
 
 ### Inital Target 3 Images
 
-<img src="Readme Images/ImageFromISS/Post_3.png">
+<img src="Readme Images/ImageFromISS/post_3.png">
 
 ### After images Processing
 
@@ -42,7 +42,7 @@ List of classes <br />
 
 ### Inital Target 3 Images
 
-<img src="Readme Images/ImageFromISS/Post_2.png">
+<img src="Readme Images/ImageFromISS/post_2.png">
 
 ### After images Processing
 
