@@ -36,6 +36,9 @@ If New score is less than theshold, the result may be hallucinate.
 If two bounding box have IOU value more than IOU theshold, It will be delete. <br />
 
 So we decided to choose gaussian due to it flexible method. <br />
+
+If you would like to try our three method for Non max suppression. We leave the link to our [colab](https://colab.research.google.com/drive/1e2Ca3UQv5cl2Z5NK1CMUYllE0YIj8Vfy?usp=sharing) and our [code](https://github.com/KIBO-Astronut/5th-KIBO/blob/main/explain_class/colab_playground/code/NMS_playground.ipynb) for you <br />
 If you want more infomation, let's leave it in the discussion.
+
 
 
