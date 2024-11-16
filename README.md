@@ -40,7 +40,7 @@ List of classes <br />
 
 <img src="Readme Images/ImageFromISS/Pre-2.png">
 
-### Inital Target 3 Images
+### Inital Target 2 Images
 
 <img src="Readme Images/ImageFromISS/post_2.png">
 
