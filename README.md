@@ -2,7 +2,7 @@
 ## This code we were using for KIBORPC5 with 1'st score award for Thailand Preliminary round and for Final Round with 1'st score 
 <img src="/Readme Images/Awards.jpg">
 
-## This code has been tested about 100~ Run according to Officials
+## This code has been tested about 1000~ Run according to Officials
 ## This code is the same code that we use in 5th-KIBO RPC final round. As you see in our [app folder](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand) <br />
 Our code contains a large number of classes. We will explain how our code works later! <br />
 List of classes <br />
