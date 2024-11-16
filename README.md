@@ -8,7 +8,7 @@
 ### List of classes 
 ##### [YourService](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/YourService.java) 
 ##### [NonMaxSuppression](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/NonMaxSuppression.java) 
-##### [**More NonMaxSuppression info**](https://github.com/KIBO-Astronut/5th-KIBO/blob/main/explain_class/Readme_Text/NMS.md) 
+[**More NonMaxSuppression info**](https://github.com/KIBO-Astronut/5th-KIBO/blob/main/explain_class/Readme_Text/NMS.md) 
 ##### [BoundingBoxWithScore](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/BoundingBoxWithScore.java)
 ##### [ARResult](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/ARResult.java) 
 ##### [Quaternion](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/Quaternion.java) 
