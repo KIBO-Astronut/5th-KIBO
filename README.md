@@ -17,6 +17,25 @@ List of classes <br />
 ## Here are some Finals Round Images from ISS
 ## For more images please go to [Images folder](https://github.com/KIBO-Astronut/5th-KIBO/tree/main/Readme%20Images/ImageFromISS)
 
+#Image distorted in Astrobee's camera due fo fish eye len
+
+
+# Target 2
+
+<img src="Readme Images/ImageFromISS/Pre-2.png">
+
+### Inital Target 2 Images
+
+<img src="Readme Images/ImageFromISS/post_2.png">
+
+### After images Processing
+
+<img src="Readme Images/ImageFromISS/before_iou_2.png">
+
+### Running Model
+
+<img src="Readme Images/ImageFromISS/after_iou_2.png">
+
 # Target 3
 
 <img src="Readme Images/ImageFromISS/Pre-3.png">
@@ -36,19 +55,5 @@ List of classes <br />
 
 ### After filter the result it gone
 
-# Target 2
 
-<img src="Readme Images/ImageFromISS/Pre-2.png">
-
-### Inital Target 2 Images
-
-<img src="Readme Images/ImageFromISS/post_2.png">
-
-### After images Processing
-
-<img src="Readme Images/ImageFromISS/before_iou_2.png">
-
-### Running Model
-
-<img src="Readme Images/ImageFromISS/after_iou_2.png">
 
