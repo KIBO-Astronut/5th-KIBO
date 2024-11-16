@@ -7,7 +7,7 @@
 ### Our code contains a large number of classes. We will explain how our code works later! 
 ### List of classes 
 - [YourService](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/YourService.java) 
-- [NonMaxSuppression](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/NonMaxSuppression.java) 
+- [NonMaxSuppression](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/NonMaxSuppression.java) - [More Info](https://github.com/KIBO-Astronut/5th-KIBO/blob/main/explain_class/Readme_Text/NMS.md)
 - [BoundingBoxWithScore](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/BoundingBoxWithScore.java) 
 - [ARResult](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/ARResult.java) 
 - [Quaternion](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand/Quaternion.java) 
