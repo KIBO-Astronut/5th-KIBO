@@ -8,7 +8,7 @@ Here, you will dicover two main function isNearEdge and softNonMaxSuppression.
 
 ## Next, softNonMaxSuppression
 ### Soft Non Max Suppression also known as Soft-NMS, It is method used to filter halucinate result and the next level of Non Max Suppression.
-### Soft-NMS is method sorting the result based on their score and intersection over union:IOU, It will decay score of hallucinate result to be lower than our theshold
+### Soft-NMS is method sorting the result based on their score and intersection over union(IOU), It will decay score of hallucinate result to be lower than our theshold
 
 Let deep dive in Soft-NMS method <br />
 Soft-NMS is filter hallucinate result that overlap the actual result like the following image:
