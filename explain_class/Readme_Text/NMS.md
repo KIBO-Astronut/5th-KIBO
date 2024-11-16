@@ -15,9 +15,9 @@ Soft-NMS is filter hallucinate result that overlap the actual result like the fo
 <img src="/explain_class/Readme_Assets/demos_image_resize.jpg">
 
 ### We have 3 method that you can choose 
-#### Linear decay
-#### Gaussian decay
-#### Regular NMS
+- Linear decay
+- Gaussian decay
+- Regular NMS
 
 ### Linear Soft-NMS
 If IOU value is more than IOU theshold we will decay score of item by using following equation
