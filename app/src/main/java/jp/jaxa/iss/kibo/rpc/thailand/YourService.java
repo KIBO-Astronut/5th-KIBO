@@ -33,13 +33,12 @@ import java.lang.Math;
 
 
 public class YourService extends KiboRpcService {
-    public Quaternion computeQuaternionFromAngles(List<Double> degrees) {
+    public Quaternion computeQuaternionFromAngles(List<Double> degrees) { //meiji 36-222//
         QuaternionUtils.computeQuaternionFromAngles(degrees);
         return new Quaternion( QuaternionUtils.computeQuaternionFromAngles(degrees).getX(),QuaternionUtils.computeQuaternionFromAngles(degrees).getY(),QuaternionUtils.computeQuaternionFromAngles(degrees).getZ(),QuaternionUtils.computeQuaternionFromAngles(degrees).getW());
     }
     @Override
     protected void runPlan1(){
-
         Map<Integer, gov.nasa.arc.astrobee.types.Point> dictionary = new HashMap<Integer, gov.nasa.arc.astrobee.types.Point>();
         dictionary.put(1, new gov.nasa.arc.astrobee.types.Point(10.66,-9.79,4.905));//Tar1
         dictionary.put(2, new gov.nasa.arc.astrobee.types.Point(10.91,-8.875,4.55));//Tar2
@@ -220,7 +219,7 @@ public class YourService extends KiboRpcService {
 
 
 
-        api.notifyRecognitionItem();
+        api.notifyRecognitionItem();  //meiji 36-222//
 
 
 
@@ -275,7 +274,7 @@ public class YourService extends KiboRpcService {
         moveToWrapper(10.91,-7.84,4.645, 0.500f,  0.500f,  -0.500f, 0.500f);
         AR_cropping(3,0);
     }
-    private double check_pos(){
+    private double check_pos(){ //meiji//
         double distance = 0.0;
         Kinematics kinematics = api.getRobotKinematics();
         gov.nasa.arc.astrobee.types.Point pos = kinematics.getPosition();;
@@ -283,7 +282,7 @@ public class YourService extends KiboRpcService {
         Log.i("distance_as:", String.valueOf(distance));
         return distance;
     }
-    private boolean check_con(int target){
+    private boolean check_con(int target){ //meiji//
         boolean check = false;
         Kinematics kinematics = api.getRobotKinematics();
         gov.nasa.arc.astrobee.types.Point pos = kinematics.getPosition();
@@ -498,7 +497,7 @@ public class YourService extends KiboRpcService {
 
 
 
-    public List<Double> stab(int target_num, int emr) {
+    public List<Double> stab(int target_num, int emr) { //meiji//
         List<Double> changeAngle = new ArrayList<>();
         double changeof_y = 0.0;
 
@@ -542,7 +541,7 @@ public class YourService extends KiboRpcService {
     }
     private boolean moveToWrapper(double pos_x, double pos_y, double pos_z,
                                   double qua_x, double qua_y, double qua_z,
-                                  double qua_w) {
+                                  double qua_w) { //meiji//
 
         final gov.nasa.arc.astrobee.types.Point point = new gov.nasa.arc.astrobee.types.Point(pos_x, pos_y, pos_z);
         final gov.nasa.arc.astrobee.types.Quaternion quaternion = new Quaternion((float) qua_x, (float) qua_y,
@@ -557,7 +556,7 @@ public class YourService extends KiboRpcService {
 
         return true;
     }
-    private boolean moveToWrapper( gov.nasa.arc.astrobee.types.Point positionMap,  gov.nasa.arc.astrobee.types.Quaternion QuaternionMap ) {
+    private boolean moveToWrapper( gov.nasa.arc.astrobee.types.Point positionMap,  gov.nasa.arc.astrobee.types.Quaternion QuaternionMap ) { //meiji//
         Result result = api.moveTo(positionMap,QuaternionMap, false);
         int loopCounter = 0;
         while (!result.hasSucceeded() && loopCounter < 3) {
@@ -566,7 +565,7 @@ public class YourService extends KiboRpcService {
         }
         return true;
     }
-    public ARResult AR_cropping (int target_num,int emr){
+    public ARResult AR_cropping (int target_num,int emr){ //meiji//
         int ar_complete =0;
         boolean check=false;
         Mat kernel = new Mat(3, 3, CvType.CV_32F);
@@ -895,7 +894,7 @@ public class YourService extends KiboRpcService {
         }
         return null;
     }
-    public  Quaternion eulerToQuaternion_use(double x, double y, double z) {
+    public  Quaternion eulerToQuaternion_use(double x, double y, double z) { //meiji//
         double yaw = Math.toRadians(z); //radian = degree*PI/180
         double pitch = Math.toRadians(y);
         double roll = Math.toRadians(x);
@@ -919,7 +918,7 @@ public class YourService extends KiboRpcService {
 
 
 
-    private Quaternion eulerToQuaternion(List<Double> degree) {
+    private Quaternion eulerToQuaternion(List<Double> degree) { //meiji//
         double yaw = Math.toRadians(degree.get(0)); //radian = degree*PI/180
         double pitch = Math.toRadians(degree.get(1));
         double roll = Math.toRadians(degree.get(2));
@@ -939,7 +938,7 @@ public class YourService extends KiboRpcService {
         return new Quaternion((float) qx, (float) qy, (float) qz, (float) qw);
     }
 
-    private List<Double> Final_turn(int target_num, int emr) {
+    private List<Double> Final_turn(int target_num, int emr) { //meiji//
         boolean check = false;
         int center_x = 0;
         int center_y = 0;
