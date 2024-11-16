@@ -25,7 +25,7 @@ If New score is less than theshold, the result may be hallucinate.
 
 ### Gaussian Soft-NMS
 If two bounding box overlap each other, Gaussian Soft-NMS will decay score of the item by using gaussian decay <br />
-Note: This method no need IOU theshold.
+Note: This method no need IOU theshold. <br />
 <img src="/explain_class/Readme_Assets/equ3.JPG"> <br />
 If New score is less than theshold, the result may be hallucinate.
 
