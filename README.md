@@ -34,7 +34,7 @@ List of classes <br />
 
 <img src="Readme Images/ImageFromISS/post_2.png">
 
-### After images Processing
+### After images Processing by AR tracking
 
 <img src="Readme Images/ImageFromISS/before_iou_2.png">
 
@@ -50,7 +50,7 @@ List of classes <br />
 
 <img src="Readme Images/ImageFromISS/post_3.png">
 
-### After images Processing
+### After images Processing by AR tracking
 
 <img src="Readme Images/ImageFromISS/before_iou_3.png">
 
