@@ -20,9 +20,11 @@ List of classes <br />
 # Image distorted in Astrobee's camera due fo fish eye len
 
 <img src="Readme Images/ImageFromISS/EMR-2.png"> 
+
 ### Distorted image
 <img src="Readme Images/ImageFromISS/Pre-2.png"> 
-### Undistorted image via 
+
+### Undistorted image via Calib3d.undistort() by opencv
 
 # Target 2
 
