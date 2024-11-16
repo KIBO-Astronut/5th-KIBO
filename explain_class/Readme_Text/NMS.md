@@ -1,4 +1,5 @@
-# In NonMaxSuppression class you will dicover two main function isNearEdge and softNonMaxSuppression
+# NonMaxSuppression class 
+Here, you will dicover two main function isNearEdge and softNonMaxSuppression.
 ## First we will talk about isNearEdge
 ### isNearEdge is function that check if the result bounding box near on the edge, it deletes the result near the edge.
 ### So why? Why we decided to do hillarious things like that? When we use AR to cropping image we decided cropping image bigger than the actual one <br />
