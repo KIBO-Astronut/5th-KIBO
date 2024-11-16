@@ -17,7 +17,7 @@ List of classes <br />
 ## Here are some Finals Round Images from ISS
 ## For more images please go to [Images folder](https://github.com/KIBO-Astronut/5th-KIBO/tree/main/Readme%20Images/ImageFromISS)
 
-#Image distorted in Astrobee's camera due fo fish eye len
+# Image distorted in Astrobee's camera due fo fish eye len
 
 
 # Target 2
