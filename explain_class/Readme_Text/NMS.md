@@ -18,7 +18,7 @@ We have 3 method that you can choose <br />
 ### Linear Soft-NMS
 If IOU value is more than IOU theshold we will decay score of item by using following equation
 <img src="/explain_class/Readme_Assets/equ1.JPG">
-<img src="/explain_class/Readme_Assets/equ2.JPG">
+<img src="/explain_class/Readme_Assets/equ2.JPG"> <br />
 If New score is less than theshold, the result may be hallucinate.
 
 ### Gaussian Soft-NMS
