@@ -12,7 +12,7 @@ Here, you will dicover two main function isNearEdge and softNonMaxSuppression.
 
 Let deep dive in Soft-NMS method <br />
 Soft-NMS is filter hallucinate result that overlap the actual result like the following image:
-<img src="/explain_class/Readme_Assets/demos_image.JPG">
+<img src="/explain_class/Readme_Assets/demos_image_resize.jpg">
 We have 3 method that you can choose <br />
 *Linear decay
 *Gaussian decay
