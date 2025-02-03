@@ -1,7 +1,7 @@
 # Welcome to Astronut Team code for 5th Kibo Robot Programming Challenge
 ## This code we were using for KIBORPC5 with 1'st score award for Thailand Preliminary round and for Final Round with 1'st score 
 <img src="/Readme Images/Awards.jpg">
-
+## Check out code feedback from JAXA team <a href="#feedback"> here! </a>
 ## This code has been tested about 1000~ Run according to Officials
 ## This code is the same code that we use in 5th-KIBO RPC final round. As you see in our [app folder](app/src/main/java/jp/jaxa/iss/kibo/rpc/thailand) <br />
 ### Our code contains a large number of classes. We will explain how our code works later! 
@@ -87,6 +87,13 @@
 <img src="Readme Images/ImageFromISS/after_iou_3.png">
 
 If you have any questions, leave in discussions are available.
+
+# Feedback
+## Code Feedback from JAXA
+<img src="Readme Images/thailand_Feedback/Slide1.png">
+<img src="Readme Images/thailand_Feedback/Slide2.png">
+<img src="Readme Images/thailand_Feedback/Slide3.png">
+<img src="Readme Images/thailand_Feedback/Slide4.png">
 
 
 
